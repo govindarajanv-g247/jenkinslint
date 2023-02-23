@@ -3,4 +3,4 @@
   description: Jenkinsfile linter
   entry: hooks/JenkinsfileLint.sh
   language: script
-  types: [shell]
+  files: ^Jenkinsfile
