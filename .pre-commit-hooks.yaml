@@ -1,6 +1,6 @@
 - id: JenkinsfileLint
-  name: Test shell scripts with shellcheck
-  description: Shell scripts conform to shellcheck
+  name: Test Jenkinsfile
+  description: Jenkinsfile linter
   entry: hooks/JenkinsfileLint.sh
   language: script
   types: [shell]
